@@ -7,6 +7,7 @@ import minesweeper.service.MineGameGrid;
 import minesweeper.service.MineSquare;
 import minesweeper.service.MinesweeperService;
 import minesweeper.service.SelectionResult;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Api(value = "Minesweeper API basic services")
 public class MinesweeperController {
 
+    @Autowired
     MinesweeperService minesweeperService = new MinesweeperService();
 
     @PostMapping(path = "/create-custom-game")
