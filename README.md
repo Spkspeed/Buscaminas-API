@@ -29,5 +29,5 @@ The development was focused using Java language with Swagger framework for Docum
 
 
 ## Deployed on Heroku as a Rest Service and Documented with Swagger
-https://minesweeper-api-game.herokuapp.com/swagger-ui.html
+https://bucaminasprueba.herokuapp.com/swagger-ui.html
 
